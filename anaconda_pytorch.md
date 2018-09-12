@@ -5,6 +5,14 @@ download anaconda (.sh file) from the web set and then install it using the foll
 sh filename.sh
 
 source ~/.bashrc
+
+conda create -n deep python=3.6 pandas numpy matplotlib jupyter notebook   #set virtual environment name and load some packages
+```
+```
+source activate deep   # active deep 
+
+deactivate deep
+
 ```
 2. **Pytorch install**
 ```
