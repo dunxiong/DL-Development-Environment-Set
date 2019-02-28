@@ -14,10 +14,12 @@ source activate deep   # active deep
 deactivate deep
 
 ```
-2. cuda instation in virtual env using anaconda
+2. cuda and cudnn instation in virtual env using anaconda
 
 ```
 conda install -c anaconda cudatoolkit = 8
+
+conda install -c anaconda cudnn = 6
 ```
 
 
