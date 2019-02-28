@@ -14,13 +14,20 @@ source activate deep   # active deep
 deactivate deep
 
 ```
-2. **Pytorch install**
+2. cuda instation
+'''
+conda install -c anaconda cudatoolkit = 8
+'''
+
+
+
+3. **Pytorch install**
 ```
 conda install pytorch=0.3 -c soumith
 conda install torchvision
 conda install tqdm
 ```
-3. **bashrc set**
+4. **bashrc set**
 ```
 export PATH="/your anaconda local path/bin:$PATH"
 
