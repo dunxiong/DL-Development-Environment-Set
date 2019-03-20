@@ -1,3 +1,6 @@
+**Meld** is a visual diff and merge tool targeted at developers
+——————————————————————————————
+
 1. clone project
 
 git clone [...]
