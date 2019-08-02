@@ -1,3 +1,17 @@
+**nvidia driver**
+'''
+sudo apt-get remove –purge nvidia*
+sudo chmod a+x NVIDIA-Linux-x86_64-375.20.run
+
+sudo ./NVIDIA-Linux-x86_64-375.20.run –no-x-check –no-nouveau-check –no-opengl-files
+'''
+–no-x-check 安装驱动时关闭X服务
+–no-nouveau-check 安装驱动时禁用nouveau
+–no-opengl-files 只安装驱动文件，不安装OpenGL文件
+
+安装CUDA时一定使用runfile文件，这样可以进行选择。不再选择安装驱动，以及在弹出xorg.conf时选择NO
+不要使用ubuntu设置中附加驱动中驱动
+
 1. **Anaconda install**
 
 download anaconda (.sh file) from the web set and then install it using the following code
