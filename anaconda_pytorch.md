@@ -1,10 +1,10 @@
 **nvidia driver**
-'''
+```
 sudo apt-get remove –purge nvidia*
 sudo chmod a+x NVIDIA-Linux-x86_64-375.20.run
 
 sudo ./NVIDIA-Linux-x86_64-375.20.run –no-x-check –no-nouveau-check –no-opengl-files
-'''
+```
 –no-x-check 安装驱动时关闭X服务
 –no-nouveau-check 安装驱动时禁用nouveau
 –no-opengl-files 只安装驱动文件，不安装OpenGL文件
