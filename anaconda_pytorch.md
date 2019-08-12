@@ -1,4 +1,4 @@
-**nvidia driver**
+0. **nvidia driver**
 ```
 sudo apt-get remove –purge nvidia*
 sudo chmod a+x NVIDIA-Linux-x86_64-375.20.run
@@ -28,6 +28,9 @@ source activate deep   # active deep
 deactivate deep
 
 ```
+**noticed the numpy version should use 1.14.5**
+
+
 2. cuda and cudnn instation in virtual env using anaconda
 
 ```
