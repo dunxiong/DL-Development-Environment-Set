@@ -1,3 +1,6 @@
+-1. **data type**
+进行tensorflow代码书写时，一定注意保持数据类型一致，中途从复数类型转化为非复数类型，再转为复数类型 在GPU版本时会出现精度计算的问题！！
+
 0. **nvidia driver**
 ```
 sudo apt-get remove –purge nvidia*
